@@ -1,308 +1,734 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="/favicon.ico">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard</title>
-    <meta name="description" content="Generate high-resolution vector QR codes for websites, Wi-Fi networks, vCard contacts, and PayPal links. Download SVG & PNG.">
-    <link rel="canonical" href="https://us-custom-qr-code-generator.enjoy-onepage.com/">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard">
-    <meta property="og:description" content="Generate high-resolution vector QR codes for websites, Wi-Fi networks, vCard contacts, and PayPal links. Download SVG & PNG.">
-    <meta property="og:url" content="https://us-custom-qr-code-generator.enjoy-onepage.com/">
-    <meta property="og:site_name" content="Custom Vector QR Code Maker">
-    <meta property="og:image" content="https://us-custom-qr-code-generator.enjoy-onepage.com/og-image.png">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard">
-    <meta name="twitter:description" content="Generate high-resolution vector QR codes for websites, Wi-Fi networks, vCard contacts, and PayPal links. Download SVG & PNG.">
-    <meta name="twitter:image" content="https://us-custom-qr-code-generator.enjoy-onepage.com/og-image.png">
-
-    <!-- Schema.org WebApplication -->
-    <script type="application/ld+json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Custom QR Code Generator | Logo, Colors, Network &amp; vCard</title>
+<meta name="description" content="Make a QR Code for a link, text, Wi-Fi network, contact card, email or phone number. Add colors and a logo, then download PNG or SVG. Free and private.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://us-custom-qr-code-generator.enjoy-onepage.com/">
+<meta name="theme-color" content="#1e293b">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Custom QR Code Generator">
+<meta property="og:title" content="Custom QR Code Generator | Logo, Colors, Network &amp; vCard">
+<meta property="og:description" content="Make a QR Code for a link, text, Wi-Fi network, contact card, email or phone number. Add colors and a logo, then download PNG or SVG. Free and private.">
+<meta property="og:url" content="https://us-custom-qr-code-generator.enjoy-onepage.com/">
+<meta property="og:image" content="https://us-custom-qr-code-generator.enjoy-onepage.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Custom QR Code Generator | Logo, Colors, Network &amp; vCard">
+<meta name="twitter:description" content="Make a QR Code for a link, text, Wi-Fi network, contact card, email or phone number. Add colors and a logo, then download PNG or SVG. Free and private.">
+<meta name="twitter:image" content="https://us-custom-qr-code-generator.enjoy-onepage.com/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="Custom QR Code Generator RSS" href="https://us-custom-qr-code-generator.enjoy-onepage.com/rss.xml">
+<link rel="sitemap" type="application/xml" href="https://us-custom-qr-code-generator.enjoy-onepage.com/sitemap.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "WebApplication",
-      "name": "Custom Vector QR Code Maker",
+      "@id": "https://us-custom-qr-code-generator.enjoy-onepage.com/#webapp",
+      "name": "Custom QR Code Generator",
       "url": "https://us-custom-qr-code-generator.enjoy-onepage.com/",
-      "description": "Generate high-resolution vector QR codes for websites, Wi-Fi networks, vCard contacts, and PayPal links. Download SVG & PNG.",
-      "applicationCategory": "UtilityApplication",
+      "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "All",
-      "inLanguage": "en-US",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
+      "inLanguage": "en",
+      "description": "A free QR Code generator that runs in your browser. Encode a link, text, Wi-Fi network, contact card, email or phone number, choose colors, margin, error correction and an optional logo, and download PNG or SVG.",
+      "image": "https://us-custom-qr-code-generator.enjoy-onepage.com/og-image.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://us-custom-qr-code-generator.enjoy-onepage.com/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is it free to use QR Codes?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. DENSO WAVE, which developed the QR Code, says no application or fee is needed as long as the code follows the JIS or ISO standard. This tool builds codes by the ISO/IEC 18004 rules. QR Code is a registered trademark of DENSO WAVE INCORPORATED." } },
+        { "@type": "Question", "name": "Which error correction level should I choose?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Level M is the usual choice: DENSO WAVE notes that it restores about 15% of the codewords and is the level selected most often. Levels Q and H survive more dirt and damage but make the code denser, and adding a logo switches the code to H." } },
+        { "@type": "Question", "name": "Can I put a logo in the middle?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The logo covers about 15% or 20% of the code's width, sits on a patch of the background color, and error correction is set to High. DENSO WAVE warns that covering part of a code can make it slow or impossible to read, so scan it with a few phones before you print." } },
+        { "@type": "Question", "name": "How does a Wi-Fi network code work?",
+          "acceptedAnswer": { "@type": "Answer", "text": "It uses the WIFI: format documented by the ZXing project, which the built-in cameras on Android and iOS 11 and later can read. It holds the network name, password and security type, so anyone who scans it can join the network. Your details stay in your browser." } },
+        { "@type": "Question", "name": "Which colors and margin are safe?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Dark modules on a light background with strong contrast scan best. DENSO WAVE recommends black on white and warns that scanners using red light cannot read a red code on white. Keep a quiet zone of 4 modules around the code." } }
+      ]
+    }
+  ]
+}
+</script>
+<!-- ADSENSE START: loader -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+<!-- ADSENSE END: loader -->
+<style>
+:root{--bg:#f4f6f9;--card:#fff;--ink:#0f172a;--muted:#475569;--line:#e2e8f0;--r:#b91c1c;--warn:#92400e}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.header{background:linear-gradient(135deg,#0f172a,#334155);color:#fff;text-align:center;padding:26px 16px 22px}
+.header h1{margin:0;font-size:1.7rem}
+.header-sub{margin-top:6px;font-size:.95rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.wrap{max-width:1080px;margin:0 auto;padding:12px 14px 8px}
+.grid2{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:1024px){.grid2{grid-template-columns:1fr 1fr;align-items:start}.result{position:sticky;top:12px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}
+.grid2 .card{margin:0}
+.card h2{font-size:1.15rem;margin:4px 0 10px}
+.card h3{font-size:1rem;margin:14px 0 6px}
+.lbl{display:block;font-weight:600;margin:10px 0 4px;font-size:.95rem}
+.modes{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.modes legend{padding:0}
+.modes label{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;font-weight:600}
+textarea{width:100%;min-height:96px;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);resize:vertical}
+input[type=text],input[type=email],input[type=tel],input[type=url],select{width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input[type=color]{width:100%;height:40px;padding:2px;border:1px solid var(--line);border-radius:10px;background:#fff}
+input[type=file]{max-width:100%;font:inherit}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>div{flex:1 1 130px;min-width:0}
+.chk{display:flex;gap:8px;align-items:center;margin:8px 0;font-size:.95rem}
+.btn{font:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:9px 14px;cursor:pointer}
+.btn.sm{padding:4px 10px;font-size:.88rem;border-radius:8px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.err{color:var(--r);font-weight:600;margin:8px 0 0}
+.warn{color:var(--warn);font-size:.9rem;margin:6px 0}
+.hint{font-size:.86rem;color:var(--muted);margin:6px 0}
+.preview{display:flex;justify-content:center;margin:6px 0}
+#qr{width:100%;max-width:320px;height:auto;image-rendering:pixelated;border:1px solid var(--line);border-radius:8px}
+.info{font-size:.92rem;font-variant-numeric:tabular-nums;margin:6px 0;overflow-wrap:anywhere}
+details{margin:6px 0}
+details pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:.85rem;margin:6px 0 0}
+.notice{border-color:#fcd34d;background:#fffbeb}
+.faq-item h3{font-size:1rem;margin:12px 0 4px}
+.faq-item p{margin:0;color:#334155}
+.src{font-size:.82rem;color:var(--muted)}
+.ad-box{max-width:1080px;margin:10px auto;padding:0 14px;background:transparent;overflow:hidden;text-align:center}
+.ad-top ins{max-height:90px}
+.footer{text-align:center;font-size:.85rem;color:var(--muted);padding:18px 14px 28px}
+.footer a{color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 18px;border-radius:999px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50;max-width:90vw}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion: reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+<header class="header">
+  <h1>Custom QR Code Generator</h1>
+  <div class="header-sub">Link, text, Wi-Fi network, contact, email or phone · colors and logo · PNG and SVG</div>
+</header>
+
+<!-- ADSENSE START: top -->
+<div class="ad-box ad-top">
+  <ins class="adsbygoogle" style="display:block;height:60px;max-height:90px" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3824727725" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: top -->
+
+<main class="wrap">
+  <div class="grid2">
+    <section class="card" id="editor" aria-labelledby="in-h">
+      <h2 id="in-h">1. What should the code hold?</h2>
+      <fieldset class="modes">
+        <legend class="lbl">Content</legend>
+        <label><input type="radio" name="type" value="text" checked> Link or text</label>
+        <label><input type="radio" name="type" value="wifi"> Wi-Fi network</label>
+        <label><input type="radio" name="type" value="contact"> Contact card</label>
+        <label><input type="radio" name="type" value="email"> Email</label>
+        <label><input type="radio" name="type" value="phone"> Phone</label>
+      </fieldset>
+      <div id="p-text">
+        <label class="lbl" for="t-text">Link or text</label>
+        <textarea id="t-text" spellcheck="false">https://example.com</textarea>
+      </div>
+      <div id="p-wifi" hidden>
+        <div class="row">
+          <div><label class="lbl" for="w-ssid">Network name (SSID)</label><input id="w-ssid" type="text" maxlength="64" autocomplete="off" spellcheck="false"></div>
+          <div><label class="lbl" for="w-sec">Security</label><select id="w-sec"><option value="WPA" selected>WPA/WPA2 (most networks)</option><option value="WEP">WEP</option><option value="nopass">No password</option></select></div>
+        </div>
+        <label class="lbl" for="w-pass">Password</label><input id="w-pass" type="text" maxlength="128" autocomplete="off" spellcheck="false">
+        <label class="chk"><input type="checkbox" id="w-hidden"> <span>Hidden network</span></label>
+      </div>
+      <div id="p-contact" hidden>
+        <div class="row">
+          <div><label class="lbl" for="c-first">First name</label><input id="c-first" type="text" maxlength="60" autocomplete="off"></div>
+          <div><label class="lbl" for="c-last">Last name</label><input id="c-last" type="text" maxlength="60" autocomplete="off"></div>
+        </div>
+        <div class="row">
+          <div><label class="lbl" for="c-phone">Phone</label><input id="c-phone" type="tel" maxlength="30" autocomplete="off"></div>
+          <div><label class="lbl" for="c-email">Email</label><input id="c-email" type="email" maxlength="120" autocomplete="off"></div>
+        </div>
+        <div class="row">
+          <div><label class="lbl" for="c-org">Company</label><input id="c-org" type="text" maxlength="80" autocomplete="off"></div>
+          <div><label class="lbl" for="c-url">Website</label><input id="c-url" type="url" maxlength="200" autocomplete="off"></div>
+        </div>
+      </div>
+      <div id="p-email" hidden>
+        <label class="lbl" for="e-to">To</label><input id="e-to" type="email" maxlength="120" autocomplete="off">
+        <label class="lbl" for="e-subject">Subject (optional)</label><input id="e-subject" type="text" maxlength="120" autocomplete="off">
+        <label class="lbl" for="e-body">Message (optional)</label><textarea id="e-body" maxlength="500"></textarea>
+      </div>
+      <div id="p-phone" hidden>
+        <label class="lbl" for="ph-num">Phone number</label><input id="ph-num" type="tel" maxlength="30" autocomplete="off" placeholder="+1 555 123 4567">
+      </div>
+      <h3>Look</h3>
+      <div class="row">
+        <div><label class="lbl" for="fg">Code color</label><input id="fg" type="color" value="#000000"></div>
+        <div><label class="lbl" for="bg">Background</label><input id="bg" type="color" value="#ffffff"></div>
+      </div>
+      <div class="row">
+        <div><label class="lbl" for="ecl">Error correction</label><select id="ecl"><option value="L">L · low</option><option value="M" selected>M · medium (usual)</option><option value="Q">Q · quartile</option><option value="H">H · high</option></select></div>
+        <div><label class="lbl" for="margin">Quiet zone (modules)</label><select id="margin"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="4" selected>4 (recommended)</option><option value="6">6</option><option value="8">8</option></select></div>
+        <div><label class="lbl" for="px">PNG size</label><select id="px"><option value="256">256 px</option><option value="512">512 px</option><option value="1024" selected>1024 px</option><option value="2048">2048 px</option></select></div>
+      </div>
+      <label class="lbl" for="logo">Logo in the middle (optional, stays on your device)</label>
+      <input id="logo" type="file" accept="image/png,image/jpeg,image/webp,image/gif">
+      <div class="row" id="logo-opts" hidden>
+        <div><label class="lbl" for="logo-size">Logo size</label><select id="logo-size"><option value="15">Small · 15% of the width</option><option value="20" selected>Medium · 20% of the width</option></select></div>
+        <div style="align-self:flex-end"><button type="button" class="btn sm" id="btn-logo-off">Remove logo</button></div>
+      </div>
+      <p class="err" id="err" role="alert" hidden></p>
+    </section>
+
+    <section class="card result" id="res" aria-labelledby="out-h">
+      <h2 id="out-h">2. Your QR Code</h2>
+      <div class="preview"><canvas id="qr" width="232" height="232" role="img" aria-label="QR Code preview"></canvas></div>
+      <p class="info" id="info"></p>
+      <div id="warns"></div>
+      <details><summary>Encoded content</summary><pre id="payload"></pre></details>
+      <p class="sr-only" id="sr-status" aria-live="polite"></p>
+      <div class="actions">
+        <button type="button" class="btn" id="btn-png">⬇ PNG</button>
+        <button type="button" class="btn" id="btn-svg">⬇ SVG</button>
+        <button type="button" class="btn" id="btn-copyimg">🖼 Copy image</button>
+        <button type="button" class="btn" id="btn-copy">📋 Copy text</button>
+        <button type="button" class="btn" id="btn-share">📤 Share</button>
+      </div>
+      <p class="hint">Test the code with your phone before printing it. Nothing you type is saved, sent or added to the page link.</p>
+    </section>
+  </div>
+
+<!-- ADSENSE START: mid (right after the result card) -->
+<div class="ad-box ad-mid">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="1186914926" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: mid -->
+
+  <section class="card" aria-labelledby="how-h">
+    <h2 id="how-h">🧮 How the code is built</h2>
+    <ul>
+      <li><strong>Encoding:</strong> digits only use numeric mode, text made only of 0–9, A–Z, space and $ % * + - . / : uses alphanumeric mode, and anything else is stored as UTF-8 bytes. The smallest version (1 to 40) that fits at your error correction level is chosen.</li>
+      <li><strong>Error correction:</strong> Reed-Solomon codewords are added per ISO/IEC 18004, then the tool tries all 8 mask patterns and keeps the one with the lowest penalty score.</li>
+      <li><strong>Content formats:</strong> Wi-Fi networks use WIFI:T:…;S:…;P:…;; with \ ; , " and : escaped by a backslash; contacts use a vCard 3.0 card; email uses a mailto: link and phone a tel: link.</li>
+      <li><strong>Downloads:</strong> the PNG uses a whole number of pixels per module, so it can be a few pixels under the size you pick; the SVG is vector and scales without blurring.</li>
+      <li><strong>Size tips:</strong> DENSO WAVE says phone cameras read about 271 bytes (version 10, level L) reliably, though this varies by phone, so keep content short.</li>
+    </ul>
+    <p class="src">Sources, checked 2026-09-30: DENSO WAVE INCORPORATED, qrcode.com FAQ (free use under the JIS or ISO standard, trademark notice, 4-module quiet zone, colors, illustrations, about 271 bytes for phone cameras) and Error Correction Feature page (level M, about 15%, is selected most often). ZXing project, Barcode Contents wiki (WIFI: format and escaping, Android and iOS 11+). QR Code is a registered trademark of DENSO WAVE INCORPORATED. Wi-Fi is a registered trademark of Wi-Fi Alliance.</p>
+  </section>
+
+  <section class="card" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">❓ Frequently asked questions</h2>
+    <div class="faq-item"><h3>Is it free to use QR Codes?</h3><p>Yes. DENSO WAVE, which developed the QR Code, says no application or fee is needed as long as the code follows the JIS or ISO standard. This tool builds codes by the ISO/IEC 18004 rules. QR Code is a registered trademark of DENSO WAVE INCORPORATED.</p></div>
+    <div class="faq-item"><h3>Which error correction level should I choose?</h3><p>Level M is the usual choice: DENSO WAVE notes that it restores about 15% of the codewords and is the level selected most often. Levels Q and H survive more dirt and damage but make the code denser, and adding a logo switches the code to H.</p></div>
+    <div class="faq-item"><h3>Can I put a logo in the middle?</h3><p>Yes. The logo covers about 15% or 20% of the code's width, sits on a patch of the background color, and error correction is set to High. DENSO WAVE warns that covering part of a code can make it slow or impossible to read, so scan it with a few phones before you print.</p></div>
+    <div class="faq-item"><h3>How does a Wi-Fi network code work?</h3><p>It uses the WIFI: format documented by the ZXing project, which the built-in cameras on Android and iOS 11 and later can read. It holds the network name, password and security type, so anyone who scans it can join the network. Your details stay in your browser.</p></div>
+    <div class="faq-item"><h3>Which colors and margin are safe?</h3><p>Dark modules on a light background with strong contrast scan best. DENSO WAVE recommends black on white and warns that scanners using red light cannot read a red code on white. Keep a quiet zone of 4 modules around the code.</p></div>
+  </section>
+
+  <section class="card notice" aria-labelledby="note-h">
+    <h2 id="note-h">⚠️ Please note</h2>
+    <p>Always scan a code with more than one phone before printing it, especially with colors or a logo. A Wi-Fi code contains your password in plain form, so share it only with people you would give the password to.</p>
+  </section>
+</main>
+
+<!-- ADSENSE START: bottom -->
+<div class="ad-box ad-bottom">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: bottom -->
+
+<footer class="footer">
+  <p>A free QR Code generator. What you type stays in your browser. QR Code is a registered trademark of DENSO WAVE INCORPORATED.</p>
+  <p><a href="/disclaimer.html">Disclaimer</a> | <a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
+</footer>
+
+<div id="global-ux-toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- LOGIC START -->
+<script>
+/*
+ * QR Code encoder per ISO/IEC 18004 (numeric, alphanumeric and byte modes; versions 1-40; levels L/M/Q/H).
+ * Its structure follows Project Nayuki's QR Code generator library, used under the MIT License:
+ * Copyright (c) Project Nayuki. (MIT License) https://www.nayuki.io/page/qr-code-generator-library
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+ * documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ * - The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+ *   the Software.
+ * - The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to
+ *   the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the
+ *   authors or copyright holders be liable for any claim, damages or other liability, whether in an action of
+ *   contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings
+ *   in the Software.
+ */
+(function () {
+  'use strict';
+  var SITE = 'https://us-custom-qr-code-generator.enjoy-onepage.com';
+  var TOOL_NAME = 'Custom QR Code Generator';
+
+  /* ================= encoder ================= */
+  var ECC_PER_BLOCK = [
+    [-1, 7, 10, 15, 20, 26, 18, 20, 24, 30, 18, 20, 24, 26, 30, 22, 24, 28, 30, 28, 28, 28, 28, 30, 30, 26, 28, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+    [-1, 10, 16, 26, 18, 24, 16, 18, 22, 22, 26, 30, 22, 22, 24, 24, 28, 28, 26, 26, 26, 26, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28],
+    [-1, 13, 22, 18, 26, 18, 24, 18, 22, 20, 24, 28, 26, 24, 20, 30, 24, 28, 28, 26, 30, 28, 30, 30, 30, 30, 28, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+    [-1, 17, 28, 22, 16, 22, 28, 26, 26, 24, 28, 24, 28, 22, 24, 24, 30, 28, 28, 26, 28, 30, 24, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
+  ];
+  var NUM_BLOCKS = [
+    [-1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 4, 4, 4, 4, 4, 6, 6, 6, 6, 7, 8, 8, 9, 9, 10, 12, 12, 12, 13, 14, 15, 16, 17, 18, 19, 19, 20, 21, 22, 24, 25],
+    [-1, 1, 1, 1, 2, 2, 4, 4, 4, 5, 5, 5, 8, 9, 9, 10, 10, 11, 13, 14, 16, 17, 17, 18, 20, 21, 23, 25, 26, 28, 29, 31, 33, 35, 37, 38, 40, 43, 45, 47, 49],
+    [-1, 1, 1, 2, 2, 4, 4, 6, 6, 8, 8, 8, 10, 12, 16, 12, 17, 16, 18, 21, 20, 23, 23, 25, 27, 29, 34, 34, 35, 38, 40, 43, 45, 48, 51, 53, 56, 59, 62, 65, 68],
+    [-1, 1, 1, 2, 4, 4, 4, 5, 6, 8, 8, 11, 11, 16, 16, 18, 16, 19, 21, 25, 25, 25, 34, 30, 32, 35, 37, 40, 42, 45, 48, 51, 54, 57, 60, 63, 66, 70, 74, 77, 81]
+  ];
+  var ECL_ORD = { L: 0, M: 1, Q: 2, H: 3 }, ECL_FMT = { L: 1, M: 0, Q: 3, H: 2 };
+  var ALNUM = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-./:';
+  function getBit(x, i) { return ((x >>> i) & 1) !== 0; }
+  function pushBits(val, len, bb) { for (var i = len - 1; i >= 0; i--) bb.push((val >>> i) & 1); }
+  function rawModules(ver) {
+    var r = (16 * ver + 128) * ver + 64;
+    if (ver >= 2) { var na = Math.floor(ver / 7) + 2; r -= (25 * na - 10) * na - 55; if (ver >= 7) r -= 36; }
+    return r;
+  }
+  function dataCodewords(ver, ecl) { var o = ECL_ORD[ecl]; return Math.floor(rawModules(ver) / 8) - ECC_PER_BLOCK[o][ver] * NUM_BLOCKS[o][ver]; }
+  function utf8(s) { return Array.prototype.slice.call(new TextEncoder().encode(s)); }
+  function segment(text) {
+    var bits = [], i;
+    if (/^[0-9]*$/.test(text)) {
+      for (i = 0; i < text.length; i += 3) { var d = text.substr(i, 3); pushBits(parseInt(d, 10), d.length * 3 + 1, bits); }
+      return { mode: 1, name: 'numeric', count: text.length, bits: bits, cc: [10, 12, 14] };
+    }
+    var alnum = true;
+    for (i = 0; i < text.length; i++) if (ALNUM.indexOf(text.charAt(i)) < 0) { alnum = false; break; }
+    if (alnum) {
+      for (i = 0; i + 1 < text.length; i += 2) pushBits(ALNUM.indexOf(text.charAt(i)) * 45 + ALNUM.indexOf(text.charAt(i + 1)), 11, bits);
+      if (text.length % 2) pushBits(ALNUM.indexOf(text.charAt(text.length - 1)), 6, bits);
+      return { mode: 2, name: 'alphanumeric', count: text.length, bits: bits, cc: [9, 11, 13] };
+    }
+    var bytes = utf8(text);
+    for (i = 0; i < bytes.length; i++) pushBits(bytes[i], 8, bits);
+    return { mode: 4, name: 'byte', count: bytes.length, bits: bits, cc: [8, 16, 16] };
+  }
+  function ccBits(seg, ver) { return seg.cc[ver < 10 ? 0 : ver < 27 ? 1 : 2]; }
+  function rsMul(x, y) {
+    var z = 0;
+    for (var i = 7; i >= 0; i--) { z = (z << 1) ^ ((z >>> 7) * 0x11D); z ^= ((y >>> i) & 1) * x; }
+    return z;
+  }
+  function rsDivisor(degree) {
+    var res = [], i, j, root = 1;
+    for (i = 0; i < degree - 1; i++) res.push(0);
+    res.push(1);
+    for (i = 0; i < degree; i++) {
+      for (j = 0; j < res.length; j++) { res[j] = rsMul(res[j], root); if (j + 1 < res.length) res[j] ^= res[j + 1]; }
+      root = rsMul(root, 2);
+    }
+    return res;
+  }
+  function rsRemainder(data, div) {
+    var res = div.map(function () { return 0; });
+    data.forEach(function (b) {
+      var f = b ^ res.shift(); res.push(0);
+      div.forEach(function (c, i) { res[i] ^= rsMul(c, f); });
+    });
+    return res;
+  }
+  function encode(text, ecl) {
+    var seg = segment(text), ver, need;
+    for (ver = 1; ver <= 40; ver++) {
+      need = 4 + ccBits(seg, ver) + seg.bits.length;
+      if (seg.count < Math.pow(2, ccBits(seg, ver)) && need <= dataCodewords(ver, ecl) * 8) break;
+    }
+    if (ver > 40) return null;
+    var bb = [], cap = dataCodewords(ver, ecl) * 8, i;
+    pushBits(seg.mode, 4, bb); pushBits(seg.count, ccBits(seg, ver), bb);
+    for (i = 0; i < seg.bits.length; i++) bb.push(seg.bits[i]);
+    pushBits(0, Math.min(4, cap - bb.length), bb);
+    pushBits(0, (8 - bb.length % 8) % 8, bb);
+    for (var pad = 0xEC; bb.length < cap; pad ^= 0xEC ^ 0x11) pushBits(pad, 8, bb);
+    var data = [];
+    for (i = 0; i < bb.length; i += 8) { var v = 0; for (var k = 0; k < 8; k++) v = (v << 1) | bb[i + k]; data.push(v); }
+    var sym = symbol(ver, ecl, data);
+    sym.mode = seg.name; sym.count = seg.count;
+    return sym;
+  }
+  function symbol(ver, ecl, data) {
+    var size = ver * 4 + 17, o = ECL_ORD[ecl], m = [], fn = [], x, y, i;
+    for (y = 0; y < size; y++) { m.push(new Array(size).fill(false)); fn.push(new Array(size).fill(false)); }
+    function setF(x, y, dark) { m[y][x] = dark; fn[y][x] = true; }
+    function finder(cx, cy) {
+      for (var dy = -4; dy <= 4; dy++) for (var dx = -4; dx <= 4; dx++) {
+        var d = Math.max(Math.abs(dx), Math.abs(dy)), xx = cx + dx, yy = cy + dy;
+        if (xx >= 0 && xx < size && yy >= 0 && yy < size) setF(xx, yy, d !== 2 && d !== 4);
       }
     }
-    </script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Layout Shield: Anti 390px Horizontal Overflow -->
-    <style id="layout-shield">
-        html, body {
-            max-width: 100% !important;
-            width: 100% !important;
-            overflow-x: hidden !important;
+    function align(cx, cy) { for (var dy = -2; dy <= 2; dy++) for (var dx = -2; dx <= 2; dx++) setF(cx + dx, cy + dy, Math.max(Math.abs(dx), Math.abs(dy)) !== 1); }
+    function formatBits(mask) {
+      var d = ECL_FMT[ecl] << 3 | mask, rem = d, j;
+      for (j = 0; j < 10; j++) rem = (rem << 1) ^ ((rem >>> 9) * 0x537);
+      var bits = (d << 10 | rem) ^ 0x5412;
+      for (j = 0; j <= 5; j++) setF(8, j, getBit(bits, j));
+      setF(8, 7, getBit(bits, 6)); setF(8, 8, getBit(bits, 7)); setF(7, 8, getBit(bits, 8));
+      for (j = 9; j < 15; j++) setF(14 - j, 8, getBit(bits, j));
+      for (j = 0; j < 8; j++) setF(size - 1 - j, 8, getBit(bits, j));
+      for (j = 8; j < 15; j++) setF(8, size - 15 + j, getBit(bits, j));
+      setF(8, size - 8, true);
+    }
+    for (i = 0; i < size; i++) { setF(6, i, i % 2 === 0); setF(i, 6, i % 2 === 0); }
+    finder(3, 3); finder(size - 4, 3); finder(3, size - 4);
+    if (ver > 1) {
+      var na = Math.floor(ver / 7) + 2, step = ver === 32 ? 26 : Math.ceil((ver * 4 + 4) / (na * 2 - 2)) * 2, pos = [6];
+      for (var p = size - 7; pos.length < na; p -= step) pos.splice(1, 0, p);
+      for (i = 0; i < na; i++) for (var j = 0; j < na; j++) {
+        if (!((i === 0 && j === 0) || (i === 0 && j === na - 1) || (i === na - 1 && j === 0))) align(pos[i], pos[j]);
+      }
+    }
+    formatBits(0);
+    if (ver >= 7) {
+      var rem = ver;
+      for (i = 0; i < 12; i++) rem = (rem << 1) ^ ((rem >>> 11) * 0x1F25);
+      var vb = ver << 12 | rem;
+      for (i = 0; i < 18; i++) { var c = getBit(vb, i), a = size - 11 + i % 3, b = Math.floor(i / 3); setF(a, b, c); setF(b, a, c); }
+    }
+    /* error correction and interleaving */
+    var nb = NUM_BLOCKS[o][ver], el = ECC_PER_BLOCK[o][ver], raw = Math.floor(rawModules(ver) / 8);
+    var nShort = nb - raw % nb, shortLen = Math.floor(raw / nb), blocks = [], div = rsDivisor(el), k = 0;
+    for (i = 0; i < nb; i++) {
+      var dat = data.slice(k, k + shortLen - el + (i < nShort ? 0 : 1));
+      k += dat.length;
+      var ecc = rsRemainder(dat, div);
+      if (i < nShort) dat.push(0);
+      blocks.push(dat.concat(ecc));
+    }
+    var all = [];
+    for (i = 0; i < blocks[0].length; i++) for (j = 0; j < blocks.length; j++) {
+      if (i !== shortLen - el || j >= nShort) all.push(blocks[j][i]);
+    }
+    /* place codewords in the zigzag order */
+    var bit = 0;
+    for (var right = size - 1; right >= 1; right -= 2) {
+      if (right === 6) right = 5;
+      for (var vert = 0; vert < size; vert++) for (var jj = 0; jj < 2; jj++) {
+        x = right - jj;
+        y = ((right + 1) & 2) === 0 ? size - 1 - vert : vert;
+        if (!fn[y][x] && bit < all.length * 8) { m[y][x] = getBit(all[bit >>> 3], 7 - (bit & 7)); bit++; }
+      }
+    }
+    function applyMask(mask) {
+      for (var yy = 0; yy < size; yy++) for (var xx = 0; xx < size; xx++) {
+        if (fn[yy][xx]) continue;
+        var inv;
+        switch (mask) {
+          case 0: inv = (xx + yy) % 2 === 0; break;
+          case 1: inv = yy % 2 === 0; break;
+          case 2: inv = xx % 3 === 0; break;
+          case 3: inv = (xx + yy) % 3 === 0; break;
+          case 4: inv = (Math.floor(xx / 3) + Math.floor(yy / 2)) % 2 === 0; break;
+          case 5: inv = xx * yy % 2 + xx * yy % 3 === 0; break;
+          case 6: inv = (xx * yy % 2 + xx * yy % 3) % 2 === 0; break;
+          default: inv = ((xx + yy) % 2 + xx * yy % 3) % 2 === 0;
         }
-        main, article, .container {
-            max-width: 100% !important;
-            box-sizing: border-box !important;
+        if (inv) m[yy][xx] = !m[yy][xx];
+      }
+    }
+    function addHist(len, h) { if (h[0] === 0) len += size; h.pop(); h.unshift(len); }
+    function countPat(h) {
+      var n = h[1], core = n > 0 && h[2] === n && h[3] === n * 3 && h[4] === n && h[5] === n;
+      return (core && h[0] >= n * 4 && h[6] >= n ? 1 : 0) + (core && h[6] >= n * 4 && h[0] >= n ? 1 : 0);
+    }
+    function termCount(color, len, h) { if (color) { addHist(len, h); len = 0; } len += size; addHist(len, h); return countPat(h); }
+    function penalty() {
+      var res = 0, a, b, color, run, h, dark = 0;
+      for (var pass = 0; pass < 2; pass++) {
+        for (a = 0; a < size; a++) {
+          color = false; run = 0; h = [0, 0, 0, 0, 0, 0, 0];
+          for (b = 0; b < size; b++) {
+            var v = pass === 0 ? m[a][b] : m[b][a];
+            if (v === color) { run++; if (run === 5) res += 3; else if (run > 5) res++; }
+            else { addHist(run, h); if (!color) res += countPat(h) * 40; color = v; run = 1; }
+          }
+          res += termCount(color, run, h) * 40;
         }
-        .manual-ad-box {
-            width: 100%;
-            max-width: 960px;
-            overflow: hidden;
-            margin: 12px auto;
-        }
-        .manual-ad-box ins {
-            max-width: 100% !important;
-            display: block;
-        }
-    </style>
-  <link rel="alternate" type="application/rss+xml" title="Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard" href="https://us-custom-qr-code-generator.enjoy-onepage.com/rss.xml">
-  <link rel="sitemap" type="application/xml" href="https://us-custom-qr-code-generator.enjoy-onepage.com/sitemap.xml">
-</head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+      }
+      for (a = 0; a < size - 1; a++) for (b = 0; b < size - 1; b++) {
+        var cc = m[a][b];
+        if (cc === m[a][b + 1] && cc === m[a + 1][b] && cc === m[a + 1][b + 1]) res += 3;
+      }
+      for (a = 0; a < size; a++) for (b = 0; b < size; b++) if (m[a][b]) dark++;
+      var total = size * size;
+      res += (Math.ceil(Math.abs(dark * 20 - total * 10) / total) - 1) * 10;
+      return res;
+    }
+    var best = 0, bestScore = Infinity;
+    for (var mk = 0; mk < 8; mk++) {
+      applyMask(mk); formatBits(mk);
+      var sc = penalty();
+      if (sc < bestScore) { bestScore = sc; best = mk; }
+      applyMask(mk);
+    }
+    applyMask(best); formatBits(best);
+    return { version: ver, size: size, ecl: ecl, mask: best, modules: m };
+  }
+  function maxBytes(ecl) { return Math.floor((dataCodewords(40, ecl) * 8 - 4 - 16) / 8); }
 
-    <!-- Header -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
-        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2 font-black text-slate-900 text-lg sm:text-xl tracking-tight">
-                <span class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-black shadow-sm">1P</span>
-                <span>Custom Vector QR Code Maker</span>
-            </a>
-            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
-                2026 US Edition
-            </span>
-        </div>
-    </header>
+  /* ================= page ================= */
+  var LOGO = null, last = null, toastTimer = null, srTimer = null;
+  function $(id) { return document.getElementById(id); }
+  function on(id, ev, fn) { var el = $(id); if (el) el.addEventListener(ev, fn); }
+  function typeNow() { var r = document.querySelector('input[name=type]:checked'); return r ? r.value : 'text'; }
+  function vv(id) { return String($(id).value).trim(); }
+  function wifiEsc(s) { return s.replace(/([\\;,":])/g, '\\$1'); }
+  function vEsc(s) { return s.replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1'); }
+  function payload() {
+    var t = typeNow();
+    if (t === 'wifi') {
+      var ssid = $('w-ssid').value, sec = $('w-sec').value, pass = $('w-pass').value;
+      if (!ssid.trim()) return { err: 'Enter the network name (SSID).' };
+      if (sec !== 'nopass' && !pass) return { err: 'Enter the password, or choose No password.' };
+      return { text: 'WIFI:T:' + sec + ';S:' + wifiEsc(ssid) + ';' + (sec !== 'nopass' ? 'P:' + wifiEsc(pass) + ';' : '') + ($('w-hidden').checked ? 'H:true;' : '') + ';' };
+    }
+    if (t === 'contact') {
+      var f = vv('c-first'), l = vv('c-last'), ph = vv('c-phone'), em = vv('c-email'), org = vv('c-org'), url = vv('c-url');
+      if (!f && !l && !ph && !em) return { err: 'Enter at least a name, phone number or email.' };
+      var lines = ['BEGIN:VCARD', 'VERSION:3.0', 'N:' + vEsc(l) + ';' + vEsc(f) + ';;;', 'FN:' + vEsc((f + ' ' + l).trim() || ph || em)];
+      if (org) lines.push('ORG:' + vEsc(org));
+      if (ph) lines.push('TEL;TYPE=CELL:' + ph);
+      if (em) lines.push('EMAIL:' + em);
+      if (url) lines.push('URL:' + url);
+      lines.push('END:VCARD');
+      return { text: lines.join('\r\n') };
+    }
+    if (t === 'email') {
+      var to = vv('e-to'), sub = vv('e-subject'), body = $('e-body').value.trim(), q = [];
+      if (!/^[^\s@]+@[^\s@]+$/.test(to)) return { err: 'Enter an email address, like name@example.com.' };
+      if (sub) q.push('subject=' + encodeURIComponent(sub));
+      if (body) q.push('body=' + encodeURIComponent(body));
+      return { text: 'mailto:' + to + (q.length ? '?' + q.join('&') : '') };
+    }
+    if (t === 'phone') {
+      var num = vv('ph-num').replace(/\s+/g, '');
+      if (!/^\+?[0-9().\-]+$/.test(num) || (num.match(/[0-9]/g) || []).length < 3) return { err: 'Enter a phone number, like +1 555 123 4567.' };
+      return { text: 'tel:' + num };
+    }
+    var s = $('t-text').value;
+    if (!s.trim()) return { err: 'Type a link or some text.' };
+    return { text: s };
+  }
+  function lum(hex) {
+    var c = [1, 3, 5].map(function (i) { var v = parseInt(hex.substr(i, 2), 16) / 255; return v <= 0.04045 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+  }
+  function settings() {
+    var logo = !!LOGO;
+    return { fg: $('fg').value, bg: $('bg').value, ecl: logo ? 'H' : $('ecl').value, margin: +$('margin').value, px: +$('px').value,
+      logo: logo, logoFrac: +$('logo-size').value / 100 };
+  }
+  function draw(canvas, qr, st, scale) {
+    var n = qr.size + st.margin * 2, ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = n * scale;
+    ctx.fillStyle = st.bg; ctx.fillRect(0, 0, n * scale, n * scale);
+    ctx.fillStyle = st.fg;
+    for (var y = 0; y < qr.size; y++) for (var x = 0; x < qr.size; x++) {
+      if (qr.modules[y][x]) ctx.fillRect((x + st.margin) * scale, (y + st.margin) * scale, scale, scale);
+    }
+    if (st.logo && LOGO) {
+      var box = logoBox(qr, st, scale);
+      ctx.fillStyle = st.bg; ctx.fillRect(box.px, box.py, box.pw, box.pw);
+      ctx.drawImage(LOGO.img, box.ix, box.iy, box.iw, box.ih);
+    }
+  }
+  function logoBox(qr, st, scale) {
+    var w = Math.round(qr.size * scale * st.logoFrac), c = (st.margin + qr.size / 2) * scale, pad = scale;
+    var r = Math.min(w / LOGO.img.naturalWidth, w / LOGO.img.naturalHeight), iw = LOGO.img.naturalWidth * r, ih = LOGO.img.naturalHeight * r;
+    return { px: c - w / 2 - pad, py: c - w / 2 - pad, pw: w + 2 * pad, ix: c - iw / 2, iy: c - ih / 2, iw: iw, ih: ih };
+  }
+  function svgText(qr, st) {
+    var n = qr.size + st.margin * 2, d = [];
+    for (var y = 0; y < qr.size; y++) for (var x = 0; x < qr.size; x++) if (qr.modules[y][x]) d.push('M' + (x + st.margin) + ' ' + (y + st.margin) + 'h1v1h-1z');
+    var out = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + n + ' ' + n + '" width="' + n * 10 + '" height="' + n * 10 + '" shape-rendering="crispEdges">' +
+      '<rect width="' + n + '" height="' + n + '" fill="' + st.bg + '"/><path fill="' + st.fg + '" d="' + d.join('') + '"/>';
+    if (st.logo && LOGO) {
+      var b = logoBox(qr, st, 1);
+      out += '<rect x="' + b.px + '" y="' + b.py + '" width="' + b.pw + '" height="' + b.pw + '" fill="' + st.bg + '"/>' +
+        '<image x="' + b.ix + '" y="' + b.iy + '" width="' + b.iw + '" height="' + b.ih + '" href="' + LOGO.url + '"/>';
+    }
+    return out + '</svg>';
+  }
+  function render() {
+    var st = settings(), p = payload(), e = $('err'), warns = [];
+    $('ecl').disabled = st.logo;
+    if (p.err) { e.hidden = false; e.textContent = p.err; last = null; }
+    else {
+      var qr = encode(p.text, st.ecl);
+      if (!qr) {
+        e.hidden = false; last = null;
+        e.textContent = 'Too much content for one QR Code at level ' + st.ecl + ' (up to ' + maxBytes(st.ecl).toLocaleString('en-US') + ' bytes). Shorten it or choose a lower error correction level.';
+      } else {
+        e.hidden = true; e.textContent = '';
+        last = { qr: qr, st: st, text: p.text };
+      }
+    }
+    var cv = $('qr');
+    if (last) {
+      var n = last.qr.size + st.margin * 2;
+      draw(cv, last.qr, st, Math.max(2, Math.floor(640 / n)));
+      var sc = Math.max(1, Math.floor(st.px / n));
+      $('info').textContent = 'Version ' + last.qr.version + ' · ' + last.qr.size + ' × ' + last.qr.size + ' modules · level ' + st.ecl +
+        ' · ' + last.qr.count.toLocaleString('en-US') + (last.qr.mode === 'byte' ? ' bytes' : ' characters') + ' (' + last.qr.mode + ' mode) · PNG ' +
+        (sc * n).toLocaleString('en-US') + ' × ' + (sc * n).toLocaleString('en-US') + ' px';
+      $('payload').textContent = last.text;
+      cv.setAttribute('aria-label', 'QR Code preview, version ' + last.qr.version);
+      if (lum(st.fg) >= lum(st.bg)) warns.push('Dark modules on a light background scan best. Light-on-dark codes cannot be read by some scanners.');
+      else {
+        var ratio = (lum(st.bg) + 0.05) / (lum(st.fg) + 0.05);
+        if (ratio < 3) warns.push('Low contrast (' + (Math.floor(ratio * 100) / 100).toFixed(2) + ':1), below 3:1, the WCAG 2.2 minimum for graphics. Scanners may struggle; black on white is safest.');
+      }
+      if (st.margin < 4) warns.push('DENSO WAVE recommends a quiet zone of 4 modules around the code.');
+      if (last.qr.version > 10) warns.push('This is version ' + last.qr.version + '. Phone cameras read up to about version 10 most reliably, so shorter content is safer.');
+      if (st.logo) warns.push('Error correction is set to H while a logo is on. Scan the code with a few phones before printing.');
+    } else {
+      var ctx = cv.getContext('2d'); cv.width = cv.height = 232; ctx.fillStyle = '#f1f5f9'; ctx.fillRect(0, 0, 232, 232);
+      $('info').textContent = 'No code yet.'; $('payload').textContent = '';
+      cv.setAttribute('aria-label', 'No QR Code yet');
+    }
+    var box = $('warns'); box.textContent = '';
+    warns.forEach(function (w) { var el = document.createElement('p'); el.className = 'warn'; el.textContent = '⚠ ' + w; box.appendChild(el); });
+    updateUrl(st);
+    clearTimeout(srTimer);
+    srTimer = setTimeout(function () {
+      $('sr-status').textContent = last ? 'QR Code updated: version ' + last.qr.version + ', level ' + last.st.ecl + '.' : $('err').textContent;
+    }, 1000);
+  }
 
-    <!-- Main Workspace -->
-    <main class="max-w-6xl mx-auto px-4 py-6 flex-grow w-full">
-        <!-- Title Banner -->
-        <div class="mb-8 text-center max-w-2xl mx-auto">
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight mb-2">Custom Vector QR Code Maker</h1>
-            <p class="text-sm sm:text-base text-slate-600">Generate high-resolution vector QR codes for websites, Wi-Fi networks, vCard contacts, and PayPal links. Download SVG & PNG.</p>
-        </div>
+  /* ---------- page link: settings only, never the content ---------- */
+  var DEF = { type: 'text', fg: '#000000', bg: '#ffffff', ecl: 'M', margin: '4', px: '1024' };
+  function query(st) {
+    var q = [], t = typeNow();
+    if (t !== DEF.type) q.push('type=' + t);
+    if ($('fg').value !== DEF.fg) q.push('fg=' + $('fg').value.slice(1));
+    if ($('bg').value !== DEF.bg) q.push('bg=' + $('bg').value.slice(1));
+    if ($('ecl').value !== DEF.ecl) q.push('ecl=' + $('ecl').value);
+    if ($('margin').value !== DEF.margin) q.push('margin=' + $('margin').value);
+    if ($('px').value !== DEF.px) q.push('px=' + $('px').value);
+    return q.length ? '?' + q.join('&') : '';
+  }
+  function link() { return SITE + '/' + query(); }
+  function updateUrl() { try { history.replaceState(null, '', location.pathname + query()); } catch (e) { /* ignore */ } }
 
-        <!-- 2-Column Gold Standard Layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            <!-- Left: Input Form (6 cols) -->
-            <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200">
-                <h2 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-                    <span class="w-2 h-2 rounded-full bg-blue-600"></span>
-                    <span>Input Parameters</span>
-                </h2>
-                
-        <div class="space-y-4">
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Primary Value / Amount ($)</label>
-                <div class="relative">
-                    <span class="absolute left-3 top-3 text-slate-400 font-bold">$</span>
-                    <input type="text" id="primaryVal" value="1,000" class="w-full pl-8 pr-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="1,000">
-                </div>
-            </div>
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Secondary Parameter / Multiplier</label>
-                <input type="number" id="secVal" value="12" min="1" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none">
-            </div>
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Calculation Category</label>
-                <select id="calcCat" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                    <option value="standard">Standard US Model (Benchmark)</option>
-                    <option value="conservative">Conservative Estimate (-10%)</option>
-                    <option value="growth">Accelerated Target (+15%)</option>
-                </select>
-            </div>
-        </div>
-        
-                <button type="button" onclick="calculate()" class="mt-6 w-full py-3.5 bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-black text-base rounded-xl shadow-md transition duration-150 cursor-pointer whitespace-nowrap">
-                    Calculate Now
-                </button>
-            </div>
+  function showToastNotification(msg) {
+    var t = $('global-ux-toast'); if (!t) return;
+    t.textContent = msg; t.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.classList.remove('show'); }, 2200);
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select();
+    var ok = false; try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    showToastNotification(ok ? 'Copied! Paste it anywhere to share.' : 'Could not copy. Please select the text and copy it yourself.');
+  }
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function () { showToastNotification('Copied! Paste it anywhere to share.'); }, function () { fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  }
+  function ready() {
+    if (last) return true;
+    showToastNotification($('err').textContent || 'Add some content first.');
+    return false;
+  }
+  function pngBlob(cb) {
+    var n = last.qr.size + last.st.margin * 2, c = document.createElement('canvas');
+    draw(c, last.qr, last.st, Math.max(1, Math.floor(last.st.px / n)));
+    c.toBlob(cb, 'image/png');
+  }
+  function save(blob, name) {
+    var a = document.createElement('a'), u = URL.createObjectURL(blob);
+    a.href = u; a.download = name; document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(u); }, 4000);
+  }
 
-            <!-- Right: Results Card (6 cols sticky) -->
-            <div class="lg:col-span-6 lg:sticky lg:top-24">
-                <div id="resultCard" class="hidden">
-                    
-        <div class="bg-blue-600 text-white p-6 rounded-2xl shadow-md mb-6">
-            <p class="text-xs uppercase font-bold tracking-wider opacity-90 mb-1">Estimated Annual Result</p>
-            <h3 id="resPrimary" class="text-3xl sm:text-4xl font-black tracking-tight">$0</h3>
-            <p class="text-xs mt-2 opacity-80">Calculated under standard US benchmarking formulas</p>
-        </div>
-        <div class="space-y-3 text-sm text-slate-700 bg-white p-5 rounded-2xl border border-slate-200">
-            <div class="flex justify-between pb-2 border-b border-slate-100">
-                <span class="text-slate-500">Monthly Equivalent:</span>
-                <span id="resMonthly" class="font-bold text-slate-900">$0</span>
-            </div>
-            <div class="flex justify-between pt-1">
-                <span class="font-bold text-slate-900">Growth / Variance Index:</span>
-                <span id="resBenchmark" class="font-black text-blue-600">0%</span>
-            </div>
-        </div>
-        
-                    <div class="mt-4 flex gap-3">
-                        <button type="button" onclick="copyResults()" class="flex-1 py-3 bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm rounded-xl transition shadow-sm cursor-pointer whitespace-nowrap">
-                            Copy Results
-                        </button>
-                        <button type="button" onclick="resetForm()" class="px-5 py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-sm rounded-xl transition cursor-pointer whitespace-nowrap">
-                            Reset
-                        </button>
-                    </div>
-                </div>
-                <!-- Initial Placeholder -->
-                <div id="placeholderCard" class="p-8 text-center border-2 border-dashed border-slate-200 rounded-2xl text-slate-400">
-                    <p class="text-sm font-semibold">Enter your inputs on the left and click "Calculate Now" to view full projections.</p>
-                </div>
-            </div>
-        </div>
+  /* ---------- events ---------- */
+  document.querySelectorAll('input[name=type]').forEach(function (r) {
+    r.addEventListener('change', function () {
+      ['text', 'wifi', 'contact', 'email', 'phone'].forEach(function (t) { $('p-' + t).hidden = t !== typeNow(); });
+      render();
+    });
+  });
+  ['t-text', 'w-ssid', 'w-pass', 'c-first', 'c-last', 'c-phone', 'c-email', 'c-org', 'c-url', 'e-to', 'e-subject', 'e-body', 'ph-num', 'fg', 'bg'].forEach(function (id) { on(id, 'input', render); });
+  ['w-sec', 'w-hidden', 'ecl', 'margin', 'px', 'logo-size', 'fg', 'bg'].forEach(function (id) { on(id, 'change', render); });
+  on('logo', 'change', function () {
+    var f = this.files && this.files[0];
+    if (!f) return;
+    if (!/^image\/(png|jpeg|webp|gif)$/.test(f.type) || f.size > 2 * 1024 * 1024) {
+      this.value = ''; showToastNotification('Choose a PNG, JPEG, WebP or GIF image up to 2 MB.'); return;
+    }
+    var rd = new FileReader(), input = this;
+    rd.onload = function () {
+      var img = new Image();
+      img.onload = function () { LOGO = { img: img, url: rd.result }; $('logo-opts').hidden = false; render(); };
+      img.onerror = function () { input.value = ''; showToastNotification('That image could not be read.'); };
+      img.src = rd.result;
+    };
+    rd.readAsDataURL(f);
+  });
+  on('btn-logo-off', 'click', function () { LOGO = null; $('logo').value = ''; $('logo-opts').hidden = true; render(); });
+  on('btn-png', 'click', function () { if (ready()) pngBlob(function (b) { save(b, 'qr-code.png'); showToastNotification('PNG saved.'); }); });
+  on('btn-svg', 'click', function () {
+    if (!ready()) return;
+    save(new Blob([svgText(last.qr, last.st)], { type: 'image/svg+xml' }), 'qr-code.svg');
+    showToastNotification('SVG saved.');
+  });
+  on('btn-copyimg', 'click', function () {
+    if (!ready()) return;
+    if (!(navigator.clipboard && navigator.clipboard.write && window.ClipboardItem && window.isSecureContext)) {
+      showToastNotification('Your browser cannot copy images here. Use the PNG button instead.'); return;
+    }
+    pngBlob(function (b) {
+      navigator.clipboard.write([new ClipboardItem({ 'image/png': b })]).then(function () { showToastNotification('Image copied.'); },
+        function () { showToastNotification('Your browser cannot copy images here. Use the PNG button instead.'); });
+    });
+  });
+  on('btn-copy', 'click', function () { if (ready()) copyText(last.text + '\n👉 ' + TOOL_NAME + ': ' + link()); });
+  on('btn-share', 'click', function () {
+    if (!ready()) return;
+    var linkText = '👉 ' + TOOL_NAME + ': ' + link();
+    pngBlob(function (b) {
+      var file = null;
+      try { file = new File([b], 'qr-code.png', { type: 'image/png' }); } catch (e) { file = null; }
+      if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
+        navigator.share({ files: [file], title: TOOL_NAME }).catch(function (e) { if (!e || e.name !== 'AbortError') copyText(linkText); });
+      } else { copyText(linkText); }
+    });
+  });
 
-        <!-- E-E-A-T Editorial FAQ Accordion -->
-        <section class="mt-14 max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl border border-slate-200">
-            <h2 class="text-lg sm:text-xl font-black text-slate-900 mb-4">Frequently Asked Questions</h2>
-            <div class="space-y-3">
-                
-    <!-- In-Depth Guidebook CTA Banner (4-1-4 Compliance) -->
-    <div class="mt-8 mb-8 p-6 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl border border-indigo-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div>
-        <span class="inline-block px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-full mb-2">COMPLETE 2026 HANDBOOK</span>
-        <h3 class="text-lg font-bold text-gray-900">Want to master the statutory details? Read our in-depth guide</h3>
-        <p class="text-xs text-gray-600 mt-1">Explore official calculation formulas, edge-case exemptions, and strategic checklists.</p>
-      </div>
-      <a href="/guides/guide.html" class="whitespace-nowrap px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-md transition flex items-center gap-2 text-xs shrink-0">
-        Read In-Depth Guide &rarr;
-      </a>
-    </div>
-
-    <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>How accurate are these calculations?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Calculations use 2026 statutory formulas and verified standard economic models. While highly accurate for benchmarking, always consult a certified professional for individual legal or financial filings.
-                    </p>
-                </details>
-                <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>Is my personal or financial data stored?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        No. 100% of the computations occur locally in your browser's JavaScript engine. Zero personal or financial data is transmitted to or saved on external servers.
-                    </p>
-                </details>
-                <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>Can I export or share my calculation results?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Yes! Click the "Copy Results" button to copy a formatted summary with a link directly to your clipboard for sharing via Slack, email, or messaging apps.
-                    </p>
-                </details>
-            </div>
-        </section>
-    </main>
-
-    <!-- Floating Toast Notification -->
-    <div id="toastNotification" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white px-5 py-2.5 rounded-full text-xs font-bold shadow-2xl opacity-0 pointer-events-none transition-opacity duration-200 z-50">
-        Copied to clipboard!
-    </div>
-
-    <!-- Modern Trust Footer -->
-    <footer class="bg-white border-t border-slate-200 py-8 text-center text-xs text-slate-500 mt-12">
-        <div class="max-w-6xl mx-auto px-4 space-y-3">
-            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 font-semibold text-slate-600">
-                <a href="/terms.html" class="hover:text-blue-600 transition">Terms of Service</a>
-                <span class="text-slate-300">|</span>
-                <a href="/privacy.html" class="hover:text-blue-600 transition">Privacy Policy</a>
-                <span class="text-slate-300">|</span>
-                <a href="/disclaimer.html" class="hover:text-blue-600 transition">Disclaimer</a>
-            </div>
-            <p class="max-w-xl mx-auto text-slate-400">
-                This tool is provided for educational and estimation purposes only. All calculations run client-side.
-            </p>
-            <p>&copy; 2026 Custom Vector QR Code Maker. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Logic Script -->
-    <script>
-        
-        function calculate() {
-            const prim = parseFloat(document.getElementById('primaryVal').value.replace(/,/g, '')) || 0;
-            const sec = parseFloat(document.getElementById('secVal').value) || 1;
-            const cat = document.getElementById('calcCat').value;
-            
-            let mult = 1.0;
-            if (cat === 'conservative') mult = 0.90;
-            if (cat === 'growth') mult = 1.15;
-            
-            const total = prim * sec * mult;
-            const monthly = total / 12;
-            const rate = ((total / (prim || 1)) * 10).toFixed(1);
-            
-            document.getElementById('resPrimary').textContent = '$' + Math.round(total).toLocaleString('en-US');
-            document.getElementById('resMonthly').textContent = '$' + Math.round(monthly).toLocaleString('en-US');
-            document.getElementById('resBenchmark').textContent = rate + '%';
-            
-            document.getElementById('resultCard').classList.remove('hidden');
-        }
-        
-
-        function copyResults() {
-            const resCard = document.getElementById('resultCard');
-            const lines = [];
-            lines.push("Custom Vector QR Code Maker - Calculation Summary");
-            lines.push("=============================");
-            resCard.querySelectorAll('.flex.justify-between').forEach(el => {
-                const k = el.querySelector('span:first-child')?.innerText || '';
-                const v = el.querySelector('span:last-child')?.innerText || '';
-                if (k && v) lines.push(k + ' ' + v);
-            });
-            lines.push("-----------------------------");
-            lines.push("👉 Try it here: https://us-custom-qr-code-generator.enjoy-onepage.com/");
-            
-            const textToCopy = lines.join('\n');
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(textToCopy).then(() => showToast());
-            } else {
-                const ta = document.createElement('textarea');
-                ta.value = textToCopy;
-                document.body.appendChild(ta);
-                ta.select();
-                document.execCommand('copy');
-                document.body.removeChild(ta);
-                showToast();
-            }
-        }
-
-        function showToast() {
-            const t = document.getElementById('toastNotification');
-            t.classList.remove('opacity-0', 'pointer-events-none');
-            setTimeout(() => {
-                t.classList.add('opacity-0', 'pointer-events-none');
-            }, 2200);
-        }
-
-        function resetForm() {
-            document.getElementById('resultCard').classList.add('hidden');
-            document.getElementById('placeholderCard').classList.remove('hidden');
-        }
-
-        // Auto calculate on load
-        window.addEventListener('DOMContentLoaded', () => {
-            calculate();
-            document.getElementById('placeholderCard').classList.add('hidden');
-        });
-    </script>
+  /* ---------- start: link values (?type=wifi&ecl=Q&margin=2&fg=1e3a8a&px=512) ---------- */
+  (function init() {
+    var q; try { q = new URLSearchParams(location.search); } catch (e) { q = null; }
+    if (q) {
+      var t = q.get('type');
+      if (t === 'wifi' || t === 'contact' || t === 'email' || t === 'phone') document.querySelector('input[name=type][value=' + t + ']').checked = true;
+      ['fg', 'bg'].forEach(function (k) { var v = q.get(k); if (v && /^[0-9a-fA-F]{6}$/.test(v)) $(k).value = '#' + v.toLowerCase(); });
+      var e = q.get('ecl'); if (e === 'L' || e === 'M' || e === 'Q' || e === 'H') $('ecl').value = e;
+      var mg = q.get('margin'); if (['0', '1', '2', '4', '6', '8'].indexOf(mg) >= 0) $('margin').value = mg;
+      var px = q.get('px'); if (['256', '512', '1024', '2048'].indexOf(px) >= 0) $('px').value = px;
+    }
+    ['text', 'wifi', 'contact', 'email', 'phone'].forEach(function (k) { $('p-' + k).hidden = k !== typeNow(); });
+    render();
+  })();
+})();
+</script>
+<!-- LOGIC END -->
 </body>
 </html>

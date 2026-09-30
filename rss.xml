@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</title>
+  <title>Custom QR Code Generator | Logo, Colors, Network &amp; vCard</title>
   <link>https://us-custom-qr-code-generator.enjoy-onepage.com/</link>
-  <description>Generate high-resolution vector QR codes for websites, Wi-Fi networks, vCard contacts, and PayPal links. Download SVG &amp; PNG.</description>
+  <description>Make a QR Code for a link, text, Wi-Fi network, contact card, email or phone number. Add colors and a logo, then download PNG or SVG. Free and private.</description>
   <language>en-us</language>
   <atom:link href="https://us-custom-qr-code-generator.enjoy-onepage.com/rss.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Tue, 29 Sep 2026 06:01:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 00:50:51 +0000</lastBuildDate>
   <item>
-    <title>Disclaimer | Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</title>
+    <title>Disclaimer | Custom QR Code Generator</title>
     <link>https://us-custom-qr-code-generator.enjoy-onepage.com/disclaimer.html</link>
     <guid isPermaLink="true">https://us-custom-qr-code-generator.enjoy-onepage.com/disclaimer.html</guid>
-    <description>Disclaimer | Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</description>
-    <pubDate>Sun, 20 Sep 2026 22:08:28 +0900</pubDate>
+    <description>Disclaimer for the Custom QR Code Generator.</description>
+    <pubDate>Wed, 30 Sep 2026 00:50:51 +0000</pubDate>
   </item>
   <item>
-    <title>Terms of Service | Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</title>
-    <link>https://us-custom-qr-code-generator.enjoy-onepage.com/terms.html</link>
-    <guid isPermaLink="true">https://us-custom-qr-code-generator.enjoy-onepage.com/terms.html</guid>
-    <description>Terms of Service | Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</description>
-    <pubDate>Sun, 20 Sep 2026 22:08:28 +0900</pubDate>
-  </item>
-  <item>
-    <title>Privacy Policy | Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</title>
+    <title>Privacy Policy | Custom QR Code Generator</title>
     <link>https://us-custom-qr-code-generator.enjoy-onepage.com/privacy.html</link>
     <guid isPermaLink="true">https://us-custom-qr-code-generator.enjoy-onepage.com/privacy.html</guid>
-    <description>Privacy Policy | Custom QR Code Generator | Logo, Colors, WiFi &amp; vCard QR Codes</description>
-    <pubDate>Sun, 20 Sep 2026 22:08:28 +0900</pubDate>
+    <description>Privacy Policy for the Custom QR Code Generator.</description>
+    <pubDate>Wed, 30 Sep 2026 00:50:51 +0000</pubDate>
+  </item>
+  <item>
+    <title>Terms of Service | Custom QR Code Generator</title>
+    <link>https://us-custom-qr-code-generator.enjoy-onepage.com/terms.html</link>
+    <guid isPermaLink="true">https://us-custom-qr-code-generator.enjoy-onepage.com/terms.html</guid>
+    <description>Terms of Service for the Custom QR Code Generator.</description>
+    <pubDate>Wed, 30 Sep 2026 00:50:51 +0000</pubDate>
   </item>
 </channel>
 </rss>
