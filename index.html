@@ -130,6 +130,22 @@ details pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;borde
   .ad-bottom { min-height: 280px !important; }
   .ad-bottom ins { min-height: 280px !important; }
 </style>
+<style id="global-quality-shield">
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .ad-bottom, .ad-bottom ins {
+    min-height: 280px !important;
+    background: transparent !important;
+  }
+  :focus-visible {
+    outline: 2px solid #2563eb !important;
+    outline-offset: 2px !important;
+  }
+</style>
 </head>
 <body>
 <header class="header">
@@ -174,7 +190,7 @@ details pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;borde
           <div><label class="lbl" for="c-last">Last name</label><input id="c-last" type="text" maxlength="60" autocomplete="off"></div>
         </div>
         <div class="row">
-          <div><label class="lbl" for="c-phone">Phone</label><input id="c-phone" type="tel" maxlength="30" autocomplete="off"></div>
+          <div><label class="lbl" for="c-phone">Phone</label><input id="c-phone" type="tel" maxlength="30" autocomplete="off" inputmode="numeric"></div>
           <div><label class="lbl" for="c-email">Email</label><input id="c-email" type="email" maxlength="120" autocomplete="off"></div>
         </div>
         <div class="row">
@@ -188,7 +204,7 @@ details pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;borde
         <label class="lbl" for="e-body">Message (optional)</label><textarea id="e-body" maxlength="500"></textarea>
       </div>
       <div id="p-phone" hidden>
-        <label class="lbl" for="ph-num">Phone number</label><input id="ph-num" type="tel" maxlength="30" autocomplete="off" placeholder="+1 555 123 4567">
+        <label class="lbl" for="ph-num">Phone number</label><input id="ph-num" type="tel" maxlength="30" autocomplete="off" placeholder="+1 555 123 4567" inputmode="numeric">
       </div>
       <h3>Look</h3>
       <div class="row">
